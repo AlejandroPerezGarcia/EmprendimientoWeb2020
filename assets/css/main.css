@@ -13,6 +13,18 @@
   transform-origin: 80% 80%;
 }
 
+@keyframes translacion {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+.alado {
+  animation: translacion 3s infinite linear;
+}
+
 body {
   padding: 0;
   margin: 0;
